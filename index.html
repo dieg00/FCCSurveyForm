@@ -2,23 +2,29 @@
 <html>
 	<head>
 		<title>Survey Page</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap" rel="stylesheet"> 
 	</head>
 
 	<body>
 		<div class="heading">
 			<h1>freeCodeCamp Survey Form</h1>
-			<h2>Thank you for taking the time to help us improve the platform</h2>
+			<h4>Thank you for taking the time to help us improve the platform</h2>
 		</div>
 		<form action="submit" id="form">
 			<label for="name">Name<br /><input id="name" type="text" /></label>
-			<label for="email"
-				><br />Email<br /><input id="email" type="text"
-			/></label>
-			<label for="age"><br />Age<br /><input id="age" type="text" /></label>
+			<label for="email"></label>
+				<br />Email<br /><input id="email" type="text" />
+			</label>
+			<label for="age">
+				<br />
+				Age <br />
+				<input id="age" type="text" />
+			</label>
 
 			<label class="question" for="role"
-				><br />Which option describes your current role?<br
-			/></label>
+				> <br /> Which option describes your current role? <br
+			/> </label>
 			<select name="role" id="role" required>
 				<option value="">Select current role</option>
 				<option value="student">Student</option>
@@ -29,21 +35,21 @@
 			</select>
 
 			<p class="question">
-				<br />Would you recommend freeCodeCamp to a friend?<br />
+				<br /> Would you recommend freeCodeCamp to a friend? <br />
 			</p>
 			<label for="rec-def"
-				><input name="recommend" id="rec-def" type="radio" />Definitely<br
-			/></label>
+				> <input name="recommend" id="rec-def" type="radio" />Definitely <br
+			/> </label>
 			<label for="rec-may"
-				><input name="recommend" id="rec-may" type="radio" />Maybe<br
-			/></label>
+				> <input name="recommend" id="rec-may" type="radio" />Maybe <br
+			/> </label>
 			<label for="rec-not"
-				><input name="recommend" id="rec-not" type="radio" />Not sure<br
-			/></label>
+				> <input name="recommend" id="rec-not" type="radio" />Not sure <br
+			/> </label>
 
 			<label for="favorite" class="question"
-				>What is your favourite feature of freeCodeCamp?<br
-			/></label>
+				> What is your favourite feature of freeCodeCamp? <br
+			/> </label>
 			<select name="favorite" id="favorite" required>
 				<option value="">Select an option</option>
 				<option value="challenges">Challenges</option>

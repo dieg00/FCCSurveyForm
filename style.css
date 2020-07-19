@@ -1,0 +1,16 @@
+body {
+	background-color: #03fcb6;
+	font-family: "Varta", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading {
+	text-align: center;
+}
+
+h4 {
+	font-weight: 100;
+	text-decoration: wavy;
+}
