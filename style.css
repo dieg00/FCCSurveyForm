@@ -4,6 +4,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
 .heading {
@@ -18,8 +20,21 @@ h4 {
 #form {
 	background-color: #33d40b;
 	padding: 5%;
+	min-width: 600px;
+}
+
+p {
+	width: 100%;
 }
 
 .textbox {
+	width: 100%;
+}
+
+.selectbox {
+	width: 100%;
+}
+
+button {
 	width: 100%;
 }
