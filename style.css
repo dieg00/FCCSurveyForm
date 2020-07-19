@@ -12,5 +12,14 @@ body {
 
 h4 {
 	font-weight: 100;
-	text-decoration: wavy;
+	font-style: italic;
+}
+
+#form {
+	background-color: #33d40b;
+	padding: 5%;
+}
+
+.textbox {
+	width: 100%;
 }
