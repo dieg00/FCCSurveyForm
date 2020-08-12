@@ -17,16 +17,25 @@
 		<form action="submit" id="form">
 			<label for="name"
 				>Name<br />
-				<input class="textbox" id="name" type="text"
+				<input
+					placeholder="Enter your name"
+					class="textbox"
+					id="name"
+					type="text"
 			/></label>
 			<label for="email">
 				<br />Email<br />
-				<input class="textbox" id="email" type="text" />
+				<input
+					placeholder="Enter your email"
+					class="textbox"
+					id="email"
+					type="text"
+				/>
 			</label>
 			<label for="age">
 				<br />
-				Age <br />
-				<input class="textbox" id="age" type="text" />
+				Age (optional) <br />
+				<input class="textbox" id="age" type="number" placeholder="Age" />
 			</label>
 
 			<label class="question" for="role">
@@ -55,10 +64,11 @@
 			<label for="rec-not">
 				<input name="recommend" id="rec-not" type="radio" />Not sure <br />
 			</label>
-
+			<br />
 			<label for="favorite" class="question">
 				What is your favourite feature of freeCodeCamp? <br />
 			</label>
+
 			<select class="selectbox" name="favorite" id="favorite" required>
 				<option value="">Select an option</option>
 				<option value="challenges">Challenges</option>
@@ -68,7 +78,7 @@
 			</select>
 
 			<p class="question">
-				<br />What would you like to see improved? (Check all that apply)<br />
+				<br />What would you like to see improved? (Check all that apply)
 			</p>
 			<label for="improved-1"
 				><input type="checkbox" name="improved" id="improved-1" />Front-end
@@ -112,9 +122,17 @@
 			/></label>
 
 			<p class="question"><br />Any comments or suggestions?<br /></p>
-			<input class="textbox" id="comments" type="text" />
+			<input
+				placeholder="Enter your comments here..."
+				class="textbox"
+				id="comments"
+				type="text"
+			/>
+			<br />
 			<br />
 			<button class="submit-button" type="submit">Submit</button>
 		</form>
+
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 	</body>
 </html>
