@@ -53,8 +53,15 @@ p {
 
 #comments {
 	height: 150px;
+	width: 102.25%;
 }
 
+textarea {
+	font-family: inherit;
+	border-radius: 2px;
+	border: 0;
+	padding: 10px;
+}
 button {
 	width: 103%;
 	height: 40px;
